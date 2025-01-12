@@ -22,5 +22,5 @@ cacheSolve = function(m, ...) {
   matrix2 <- m$get() #if it doesn't have the inverse
   Inv = solve(matrix2)
   m$setinv(Inv)
-  mInv
+  Inv
 }
